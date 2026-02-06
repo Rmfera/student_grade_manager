@@ -3,6 +3,13 @@ import { v4 } from "uuid";
 
 const port = 3000;
 const grades = [];
+// const grades = [
+//   {
+//     studentName: "Maria",
+//     subject: "English",
+//     grade: "10",
+//   },
+// ];
 
 const server = http.createServer((request, response) => {
   const { method, url } = request;
